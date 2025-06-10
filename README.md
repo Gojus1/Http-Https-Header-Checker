@@ -13,14 +13,6 @@ A simple and interactive JavaFX application that allows users to send HTTP `HEAD
 - ✅ Clear and modern JavaFX GUI  
 - ✅ Manual socket handling (no `HttpURLConnection` or third-party libraries)
 
----
-
-## 🖼️ Screenshot
-
-> Add a screenshot here if you'd like to show off the GUI!
-
----
-
 ## 🚀 How to Run
 
 ### 🔧 Requirements
