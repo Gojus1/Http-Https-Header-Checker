@@ -1,4 +1,3 @@
-// Gojus Kastenas 2 gr. 
 package com.example.httpserver;
 
 import javax.net.ssl.SSLHandshakeException;
