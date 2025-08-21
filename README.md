@@ -3,6 +3,8 @@
 A simple and interactive JavaFX application that allows users to send HTTP `HEAD` requests to any server and view selected response headers. Built from scratch without using `HttpURLConnection`, this project manually handles HTTP and HTTPS connections using sockets and SSL.
 
 ---
+![Preview](img.png)
+---
 
 ## 🧩 Features
 
