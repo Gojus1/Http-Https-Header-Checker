@@ -6,41 +6,30 @@ A simple and interactive JavaFX application that allows users to send HTTP `HEAD
 ![Preview](img.png)
 ---
 
-## 🧩 Features
+## Features
 
-- ✅ Supports both HTTP and HTTPS protocols  
-- ✅ Lets users select specific headers to view  
-- ✅ Checkbox interface with "Select All" and "Deselect All"  
-- ✅ Built-in header filtering (only includes selected ones)  
-- ✅ Clear and modern JavaFX GUI  
-- ✅ Manual socket handling (no `HttpURLConnection` or third-party libraries)
+-  Supports both HTTP and HTTPS protocols  
+-  Lets users select specific headers to view  
+-  Checkbox interface with "Select All" and "Deselect All"  
+-  Built-in header filtering (only includes selected ones)  
+-  Clear and modern JavaFX GUI  
+-  Manual socket handling (no `HttpURLConnection` or third-party libraries)
 
 ---
-## 🚀 How to Run
+##  How to Run
 
-### 🔧 Requirements
+###  Requirements
 
 - Java 17 or newer
 - JavaFX SDK
-- An IDE (like IntelliJ or Eclipse) **or** build with Maven
-
-### 🛠️ Run in IntelliJ
-
-1. Clone or download the project
-2. Ensure JavaFX SDK is properly added to your project dependencies
-3. Run the `GUI.java` class (this is your main JavaFX application)
+- An IDE (recommend IntelliJ)
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 - The program parses the URL input by the user
 - It decides whether to open a secure `SSLSocket` (for HTTPS) or a normal `Socket` (for HTTP)
 - It sends a custom `HEAD` request to the server
 - The response is parsed line-by-line, and only headers selected by the user are shown
 - Headers are filtered using either exact name matching or regex
-
----
-
-## 📁 Project Structure
-
